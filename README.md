@@ -1,24 +1,21 @@
-**LethalLevelLoader**
---
+## LethalLevelLoaderAOORE_Fix
 
-**A Custom API to support the manual and dynamic integration of all forms of custom content in Lethal Company.**
+**Lethal Level Loader fork which fixes ArgumentOutOfRange exception [#137](https://github.com/IAmBatby/LethalLevelLoader/pull/137)**
 
-**Thunderstore Link:** *https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/*
+**Original version:** https://thunderstore.io/c/lethal-company/p/IAmBatby/LethalLevelLoader/
 
-**Discord Thread:** *https://discord.com/channels/1168655651455639582/1193461151636398080*
+If you want to contribute to this mod, please do so on IAmBatby GitHub page.
+I will only publish rebased versions of this mod, with my fix.
+When the PR on LLL repo is going to be merged (Or IAmBatby will fix this bug with his own solution) I will deprecate this version of LLL.
 
-**Description**
---
-
-### **1.3.0 for Lethal Company v55 Has Released!**
-
+---
 **LethalLevelLoader** is a custom API to support the manual and dynamic integration of custom levels and dungeons in Lethal Company.  
 Mod Developers can provide LethalLevelLoader with their custom content via code or via automatic AssetBundle detection, and from there LethalLevelLoader will seamlessly load the content into the game.
 
 This Mod is Likely To Be Incompatible with **LethalExpansion**, Due To The inherit conflicts involved in changing the same systems.
 
 **How To Use (Users / Players)**
---
+---
 
 
   Simply install LethalLevelLoader and it's dependencies.
@@ -27,14 +24,13 @@ This Mod is Likely To Be Incompatible with **LethalExpansion**, Due To The inher
   If a mod using **LethalLevelLoader** supplies a **.lethalbundle** file, **LethalLevelLoader** will automatically find and load it’s content as long as it’s in the /plugins/ folder (Subfolders will be detected)
 
 **How To Use (Modders / Developers)**
---
-
+---
 
   Please refer to the LethalLevelLoader Wiki for documentation on utilizing this API for your custom content:
   https://github.com/IAmBatby/LethalLevelLoader/wiki
 
 **Features Currently Supported**
---
+---
 * Custom Moons
 * Custom Interiors
 * Custom Items (Scrap / Items)
@@ -44,7 +40,7 @@ This Mod is Likely To Be Incompatible with **LethalExpansion**, Due To The inher
 * Custom Footstep Surfaces (WIP)
 
 **Contributing To LethalLevelLoader**
---
+---
 
 ### Setup
 To start contributing to LLL, you can start by [forking](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) the repo.  
@@ -55,8 +51,9 @@ Then, follow these steps:
 You should be now set up, and ready compile your fork of LethalLevelLoader on your machine!
 
 **Credits**
---
+---
 
+* **IAmBatby** *(For creating this incredible mod!)*
 * **Evaisa** *(This Mod is directly based from LethalLib's codebase and could have been made without it's pre-existing foundations.)*
 * **SkullCrusher** *(This Mod is directly based from SkullCrusher's LethalLib' Fork and could have been made without it's pre-existing foundations.)*
 * **HolographicWings** *(This Mod was inspired by LethalExpansion and could not have been made without HolographicWing's support and research.)*

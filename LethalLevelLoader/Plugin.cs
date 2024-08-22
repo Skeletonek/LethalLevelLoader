@@ -23,7 +23,7 @@ namespace LethalLevelLoader
     public class Plugin : BaseUnityPlugin
     {
         public const string ModGUID = "imabatby.lethallevelloader";
-        public const string ModName = "LethalLevelLoader";
+        public const string ModName = "LethalLevelLoaderAOORE_Fix";
         public const string ModVersion = "1.3.10";
 
         internal static Plugin Instance;

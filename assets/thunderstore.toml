@@ -6,10 +6,10 @@ schemaVersion = "0.0.1"
 repository = "https://thunderstore.io"
 
 [package]
-namespace = "IAmBatby"
-name = "LethalLevelLoader"
-description = "A Custom API to support the manual and dynamic integration of all forms of custom content in Lethal Company. (v50 Compatible)"
-websiteUrl = "https://github.com/IAmBatby/LethalLevelLoader"
+namespace = "Skeletonek"
+name = "LethalLevelLoaderAOORE_Fix"
+description = "Lethal Level Loader fork which fixes ArgumentOutOfRange exception"
+websiteUrl = "https://github.com/Skeletonek/LethalLevelLoader"
 containsNsfwContent = false
 
 [package.dependencies]
